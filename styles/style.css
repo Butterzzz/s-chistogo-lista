@@ -235,5 +235,32 @@ blockquote {
 }
 
 .footer {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
+}
+
+.footer__copy {
+    color: #F5F5F5;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 135%;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer__list {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.footer__links {
+    color: #F5F5F5;
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 125%;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
 }
