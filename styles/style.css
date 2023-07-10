@@ -99,7 +99,6 @@ blockquote {
 
 .intro {
     padding: 0 20px 38px;
-    
 }
 
 .intro__heading {
@@ -110,7 +109,7 @@ blockquote {
 
 .intro__title {
     color: #CCC;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -129,14 +128,52 @@ blockquote {
     margin-bottom: 0;
 }
 
-
-
-
-
-
 .reason {
     padding: 40px 20px;
 }
+
+.content-section__subtitle {
+    color: #131313;
+    font-family: 'EB Garamond';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115%;
+    margin-bottom: 32px;
+}
+
+.content-section__introduction {
+    color: #131313;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 27px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.content-section__list {
+    padding: 0 20px;
+}
+
+.content-section__list-item {
+    color: #131313;
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 21.6px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.content-section__list-item:last-child {
+    margin-bottom: 0;
+}
+
+.content-section__list-accent {
+    font-weight: 700;
+}
+
 
 .how-to {
     padding: 40px 20px 60px;
