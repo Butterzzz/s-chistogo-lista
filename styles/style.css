@@ -97,10 +97,42 @@ blockquote {
     text-align: right;
 }
 
-
 .intro {
     padding: 0 20px 38px;
+    
 }
+
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.intro__title {
+    color: #CCC;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.intro__date {
+    white-space: nowrap;
+}
+
+.intro__main-text p {
+    margin-bottom: 24px;
+}
+
+.intro__main-text p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
 
 .reason {
     padding: 40px 20px;
