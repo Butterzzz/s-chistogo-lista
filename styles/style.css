@@ -41,24 +41,16 @@ blockquote {
     padding: 24px 20px;
 }
 
-.header__logo {}
-
 .header__logo-image {
     width: 78px;
     height: 15px;
 }
-
-.header__menu {}
 
 .header__menu-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
     list-style: none;
-}
-
-.header__menu-item {
-    
 }
 
 .header__menu-link {
@@ -75,8 +67,36 @@ blockquote {
 }
 
 .cover {
+    min-height: 221px;
     padding: 7px 20px 30px;
+    background-image: url(./../images/cover.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 95% auto;
 }
+
+.cover__title {
+    color: #FFF;
+    font-family: 'EB Garamond';
+    font-size: 72px;
+    line-height: 100%;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+}
+
+.accent-span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
 
 .intro {
     padding: 0 20px 38px;
